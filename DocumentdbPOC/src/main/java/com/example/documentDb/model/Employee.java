@@ -16,10 +16,10 @@ public class Employee {
 	private String role;
 	
 
-	Employee() {
+	public Employee() {
 	}
 
-	Employee(String name, String role) {
+	public Employee(String name, String role) {
 
 		this.name = name;
 		this.role = role;
